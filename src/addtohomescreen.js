@@ -40,121 +40,145 @@ function ath (options) {
 ath.intl = {
 	cs_cs: {
 		ios: 'Pro přidáni této webové aplikace na úvodní obrazovku: stlačte %icon a pak <strong>Přidat na úvodní obrazovku</strong>.',
+		iosNonSafari: 'Nepoužíváte aplikaci prohlížeče Safari. <strong>Pomocí aplikace Safari</strong> přidáte tuto webovou aplikaci na domovskou obrazovku.',
 		android: 'Pro přidáni této webové aplikace na úvodní obrazovku otevřete menu nastavení prohlížeče a stlačte <strong>Přidat na úvodní obrazovku</strong>. <small>K menu se dostanete stlačením hardwaroveho tlačítka, když ho vaše zařízení má, nebo stlačením pravé horní menu ikony <span class="ath-action-icon">icon</span>.</small>'
 	},
 
 	de_de: {
 		ios: 'Um diese Web-App zum Home-Bildschirm hinzuzufügen, tippen Sie auf %icon und dann <strong>Zum Home-Bildschirm</strong>.',
+		iosNonSafari: 'Sie verwenden die Safari Browser App nicht. <strong>Verwenden Sie Safari App</strong>, um diese Web-App zum Startbildschirm hinzuzufügen.',
 		android: 'Um diese Web-App zum Home-Bildschirm hinzuzufügen, öffnen Sie das Menü und tippen dann auf <strong>Zum Startbildschirm hinzufügen</strong>. <small>Wenn Ihr Gerät eine Menütaste hat, lässt sich das Browsermenü über diese öffnen. Ansonsten tippen Sie auf %icon.</small>'
 	},
 
 	da_dk: {
 		ios: 'For at tilføje denne web app til hjemmeskærmen: Tryk %icon og derefter <strong>Føj til hjemmeskærm</strong>.',
+		iosNonSafari: 'Du bruger ikke Safari-browseren. <strong>Brug Safari app</strong> til at tilføje denne webapp til startskærmen.',
 		android: 'For at tilføje denne web app til hjemmeskærmen, åbn browser egenskaber menuen og tryk på <strong>Føj til hjemmeskærm</strong>. <small>Denne menu kan tilgås ved at trykke på menu knappen, hvis din enhed har en, eller ved at trykke på det øverste højre menu ikon %icon.</small>'
 	},
 
 	el_gr: {
 		ios: 'Για να προσθέσετε την εφαρμογή στην αρχική οθόνη: πατήστε το %icon και μετά <strong>Πρόσθεσε στην αρχική οθόνη</strong>.',
+		iosNonSafari: 'Δεν χρησιμοποιείτε την εφαρμογή προγράμματος περιήγησης Safari. <strong>Χρησιμοποιήστε την εφαρμογή Safari</strong> για να προσθέσετε αυτήν την εφαρμογή ιστού στην αρχική οθόνη.',
 		android: 'Για να προσθέσετε την εφαρμογή στην αρχική οθόνη, ανοίξτε τις επιλογές του browser σας και πατήστε το <strong>Προσθήκη στην αρχική οθόνη</strong>. <small>Μπορείτε να έχετε πρόσβαση στο μενού, πατώντας το κουμπί του μενού του κινητού σας ή το πάνω δεξιά κουμπί του μενού %icon.</small>'
 	},
 
 	en_us: {
 		ios: 'To add this web app to the home screen: tap %icon and then <strong>Add to Home Screen</strong>.',
-		android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon %icon.</small>'
+		iosNonSafari: 'You are not using the Safari browser app. <strong>Use Safari app</strong> to add this web app to the home screen.',
+		android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon %icon.</small>',
 	},
 
 	es_es: {
 		ios: 'Para añadir esta aplicación web a la pantalla de inicio: pulsa %icon y selecciona <strong>Añadir a pantalla de inicio</strong>.',
+		iosNonSafari: 'No utilizas la aplicación del navegador de Safari. <strong>Utiliza la aplicación de Safari</strong> para agregar esta aplicación web a la pantalla de inicio.',
 		android: 'Para añadir esta aplicación web a la pantalla de inicio, abre las opciones y pulsa <strong>Añadir a pantalla inicio</strong>. <small>El menú se puede acceder pulsando el botón táctil en caso de tenerlo, o bien el icono de la parte superior derecha de la pantalla %icon.</small>'
 	},
 
 	fi_fi: {
 		ios: 'Liitä tämä sovellus kotivalikkoon: klikkaa %icon ja tämän jälkeen <strong>Lisää kotivalikkoon</strong>.',
+		iosNonSafari: 'Et käytä Safari -selaimissovellusta. <strong>Lisää tämä verkkosovellus kotisivulle Safarin sovelluksen avulla</strong>.',  //[Brendan]: unclear on what to bold so bolded all of 2nd line.
 		android: 'Lisätäksesi tämän sovelluksen aloitusnäytölle, avaa selaimen valikko ja klikkaa tähti -ikonia tai <strong>Lisää aloitusnäytölle tekstiä</strong>. <small>Valikkoon pääsee myös painamalla menuvalikkoa, jos laitteessasi on sellainen tai koskettamalla oikealla yläkulmassa menu ikonia %icon.</small>'
 	},
 
 	fr_fr: {
 		ios: 'Pour ajouter cette application web sur l\'écran d\'accueil : Appuyez %icon et sélectionnez <strong>Ajouter sur l\'écran d\'accueil</strong>.',
+		iosNonSafari: 'Vous n\'utilisez pas l\'application Safari. <strong>Utilisez l\'application Safari</strong> pour ajouter cette application Web à l\'écran d\'accueil.',
 		android: 'Pour ajouter cette application web sur l\'écran d\'accueil : Appuyez sur le bouton "menu", puis sur <strong>Ajouter sur l\'écran d\'accueil</strong>. <small>Le menu peut-être accessible en appuyant sur le bouton "menu" du téléphone s\'il en possède un <i class="fa fa-bars"></i>. Sinon, il se trouve probablement dans la coin supérieur droit du navigateur %icon.</small>'
 	},
 
 	he_il: {
 		ios: '<span dir="rtl">להוספת האפליקציה למסך הבית: ללחוץ על %icon ואז <strong>הוסף למסך הבית</strong>.</span>',
+		iosNonSafari: '<span dir="rtl">אינך משתמש באפליקציית דפדפן Safari. <strong>השתמש באפליקציית Safari כדי להוסיף יישום אינטרנט זה למסך דף הבית.</strong></span>',  //[Brendan]: copied rtl. Unclear on what to bold so bolded all of 2nd line.
 		android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon %icon.</small>'
 	},
 
 	hu_hu: {
 		ios: 'Ha hozzá szeretné adni ezt az alkalmazást a kezdőképernyőjéhez, érintse meg a következő ikont: %icon , majd a <strong>Hozzáadás a kezdőképernyőhöz</strong> menüpontot.',
+		iosNonSafari: 'Nem használja a Safari böngésző alkalmazást. A Safari alkalmazás segítségével hozzáadhatja ezt a webalkalmazást a kezdőképernyőhöz.',  //[Brendan]: Unclear on what to bold between both sentences so, bolded neither.
 		android: 'Ha hozzá szeretné adni ezt az alkalmazást a kezdőképernyőjéhez, a böngésző menüjében kattintson a <strong>Hozzáadás a kezdőképernyőhöz</strong> menüpontra. <small>A böngésző menüjét a következő ikon megérintésével tudja megnyitni: %icon.</small>'
 	},
 
 	it_it: {
 		ios: 'Per aggiungere questa web app alla schermata iniziale: premi %icon e poi <strong>Aggiungi a Home</strong>.',
+		iosNonSafari: 'Non si utilizza l\'applicazione browser Safari. <strong>Utilizza l\'applicazione Safari</strong> per aggiungere questa applicazione web alla schermata iniziale.',
 		android: 'Per aggiungere questa web app alla schermata iniziale, apri il menu opzioni del browser e premi su <strong>Aggiungi alla homescreen</strong>. <small>Puoi accedere al menu premendo il pulsante hardware delle opzioni se la tua device ne ha uno, oppure premendo l\'icona %icon in alto a destra.</small>'
 	},
 
 	ja_jp: {
 		ios: 'このウェプアプリをホーム画面に追加するには、%iconをタップして<strong>ホーム画面に追加</strong>してください。',
+		iosNonSafari: 'あなたはSafariブラウザアプリを使用していません。 <strong>Safariアプリを使用してこのWebアプリケーションをホーム画面に追加します。</strong>',
 		android: 'このウェプアプリをホーム画面に追加するには、ブラウザのオプションメニューから<strong>ホーム画面に追加</strong>をタップしてください。<small>オプションメニューは、一部の機種ではデバイスのメニューボタンから、それ以外では画面右上の%iconからアクセスできます。</small>'
  	},
 
 	ko_kr: {
 		ios: '홈 화면에 바로가기 생성: %icon 을 클릭한 후 <strong>홈 화면에 추가</strong>.',
+		iosNonSafari: 'Safari 브라우저 앱을 사용하고 있지 않습니다. <strong>Safari 앱을 사용하여이 웹 앱을 홈 화면에 추가하십시오.</strong>',  //[Brendan]: unclear on what to bold so bolded all of 2nd line.
 		android: '브라우저 옵션 메뉴의 <string>홈 화면에 추가</string>를 클릭하여 홈화면에 바로가기를 생성할 수 있습니다. <small>옵션 메뉴는 장치의 메뉴 버튼을 누르거나 오른쪽 상단의 메뉴 아이콘 %icon을 클릭하여 접근할 수 있습니다.</small>'
 	},
 
 	nb_no: {
 		ios: 'For å installere denne appen på hjem-skjermen: trykk på %icon og deretter <strong>Legg til på Hjem-skjerm</strong>.',
+		iosNonSafari: 'Du bruker ikke Safari-nettleserappen. <strong>Bruk Safari-appen</strong> til å legge til denne nettappappen på startskjermbildet.',
 		android: 'For å legge til denne webappen på startsiden åpner en nettlesermenyen og velger <strong>Legg til på startsiden</strong>. <small>Menyen åpnes ved å trykke på den fysiske menyknappen hvis enheten har det, eller ved å trykke på menyikonet øverst til høyre %icon.</small>'
 	},
 
 	pt_br: {
 		ios: 'Para adicionar este app à tela de início: clique %icon e então <strong>Tela de início</strong>.',
+		iosNonSafari: 'Você não está usando o aplicativo do navegador Safari. <strong>Use o aplicativo Safari</strong> para adicionar este aplicativo da Web à tela inicial.',
 		android: 'Para adicionar este app à tela de início, abra o menu de opções do navegador e selecione <strong>Adicionar à tela inicial</strong>. <small>O menu pode ser acessado pressionando o "menu" button se o seu dispositivo tiver um, ou selecionando o ícone %icon no canto superior direito.</small>'
 	},
 
 	pt_pt: {
 		ios: 'Para adicionar esta app ao ecrã principal: clique %icon e depois <strong>Ecrã principal</strong>.',
+		iosNonSafari: 'Você não está usando o aplicativo do navegador Safari. <strong>Use o aplicativo Safari</strong> para adicionar este aplicativo da Web à tela inicial.',
 		android: 'Para adicionar esta app web ecrã principal, abra o menu de opções do navegador e selecione <strong>Adicionar à tela inicial</strong>. <small>O menu pode ser acessado pressionando o "menu" button se o seu dispositivo tiver um, ou selecionando o ícone %icon no canto superior direito.</small>'
 	},
 
 	nl_nl: {
 		ios: 'Om deze webapp aan je startscherm toe te voegen, klik op %icon en dan <strong>Zet in startscherm</strong>.',
+		iosNonSafari: 'U gebruikt de Safari-browser-app niet. <strong>Gebruik Safari app</strong> om deze web app toe te voegen aan het startscherm.',
 		android: 'Om deze webapp aan je startscherm toe te voegen, open de browserinstellingen en tik op <strong>Toevoegen aan startscherm</strong>. <small>Gebruik de "menu" knop als je telefoon die heeft, anders het menu-icoon rechtsbovenin %icon.</small>'
 	},
 
 	ru_ru: {
 		ios: 'Чтобы добавить этот сайт на свой домашний экран, нажмите на иконку %icon и затем <strong>На экран "Домой"</strong>.',
+		iosNonSafari: 'Вы не используете приложение браузера Safari. <strong>Используйте приложение Safari, чтобы добавить это веб-приложение на главный экран.</strong>',  //[Brendan]: unclear on what to bold so bolded all of 2nd line.
 		android: 'Чтобы добавить сайт на свой домашний экран, откройте меню браузера и нажмите на <strong>Добавить на главный экран</strong>. <small>Меню можно вызвать, нажав на кнопку меню вашего телефона, если она есть. Или найдите иконку сверху справа %icon[иконка].</small>'
 	},
 
 	sk_sk: {
 		ios: 'Pre pridanie tejto webovej aplikácie na úvodnú obrazovku: stlačte %icon a potom <strong>Pridať na úvodnú obrazovku</strong>.',
+		iosNonSafari: 'Nepoužívate aplikáciu prehliadača Safari. <strong>Pomocou aplikácie Safari</strong> pridajte túto webovú aplikáciu na domovskú obrazovku.',
 		android: 'Pre pridanie tejto webovej aplikácie na úvodnú obrazovku otvorte menu nastavenia prehliadača a stlačte <strong>Pridať na úvodnú obrazovku</strong>. <small>K menu sa dostanete stlačením hardwaroveho tlačidla, ak ho vaše zariadenie má, alebo stlačením pravej hornej menu ikony <span class="ath-action-icon">icon</span>.</small>'
 	},
 
 	sv_se: {
 		ios: 'För att lägga till denna webbapplikation på hemskärmen: tryck på %icon och därefter <strong>Lägg till på hemskärmen</strong>.',
+		iosNonSafari: 'Du använder inte Safari-webbläsaren. <strong>Använd Safari-appen</strong> för att lägga till den här webbappen på startskärmen.',
 		android: 'För att lägga till den här webbappen på hemskärmen öppnar du webbläsarens alternativ-meny och väljer <strong>Lägg till på startskärmen</strong>. <small>Man hittar menyn genom att trycka på hårdvaruknappen om din enhet har en sådan, eller genom att trycka på menyikonen högst upp till höger %icon.</small>'
 	},
 
 	tr_tr: {
 		ios: 'Uygulamayı ana ekrana eklemek için, %icon ve ardından <strong>ana ekrana ekle</strong> butonunu tıklayın.',
+		iosNonSafari: 'Safari tarayıcı uygulamasını kullanmıyorsunuz. Bu web uygulamasını ana ekrana eklemek için <strong>Safari uygulamasını kullanın</strong>.',
 		android: 'Uygulamayı ana ekrana eklemek için, menüye girin ve <strong>ana ekrana ekle</strong> butonunu tıklayın. <small>Cihazınız menü tuşuna sahip ise menüye girmek için menü tuşunu tıklayın. Aksi takdirde %icon butonunu tıklayın.</small>'
 	},
 
 	uk_ua: {
 		ios: 'Щоб додати цей сайт на початковий екран, натисніть %icon, а потім <strong>На початковий екран</strong>.',
+		iosNonSafari: 'Ви не використовуєте браузер Safari. <strong>Використовуйте додаток Safari</strong>, щоб додати цю веб-програму на головний екран.',
 		android: 'Щоб додати цей сайт на домашній екран, відкрийте меню браузера та виберіть <strong>Додати на головний екран</strong>. <small>Це можливо зробити, натиснувши кнопку меню на вашому смартфоні, якщо така є. Або ж на іконці зверху справа %icon.</small>'
 	},
 
 	zh_cn: {
 		ios: '如要把应用程序加至主屏幕,请点击%icon, 然后<strong>添加到主屏幕</strong>',
+		iosNonSafari: '您没有使用Safari浏览器应用程序。 <strong>使用Safari应用程序</strong>将此网络应用程序添加到主屏幕。',
 		android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon %icon.</small>'
 	},
 
 	zh_tw: {
 		ios: '如要把應用程式加至主屏幕, 請點擊%icon, 然後<strong>加至主屏幕</strong>.',
+		iosNonSafari: '您沒有使用Safari瀏覽器應用程序。 <strong>使用Safari應用程序</strong>將此網絡應用程序添加到主屏幕。',
 		android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon %icon.</small>'
 	}
 };
@@ -206,7 +230,7 @@ _extend(ath, {
 // falls back to en_us if language is unsupported
 ath.language = ath.language && ath.language in ath.intl ? ath.language : 'en_us';
 
-ath.isMobileSafari = ath.isIDevice && _ua.indexOf('Safari') > -1 && _ua.indexOf('CriOS') < 0;
+ath.isMobileSafari = ath.isIDevice && _ua.indexOf('Safari') > -1 && _ua.indexOf('Version') > -1; //[Brendan] instead of: "&& _ua.indexOf('CriOS') < 0"
 ath.OS = ath.isIDevice ? 'ios' : ath.isMobileChrome ? 'android' : ath.isMobileIE ? 'windows' : 'unsupported';
 
 ath.OSVersion = _ua.match(/(OS|Android) (\d+[_\.]\d+)/);
@@ -495,8 +519,9 @@ ath.Class.prototype = {
 		}
 
 		var message = '';
-
-		if ( typeof this.options.message == 'object' && ath.language in this.options.message ) {		// use custom language message
+		if ( typeof this.options.message == 'object' && ath.language in this.options.message && ath.OS === 'ios' && ath.iosNonSafari ) {		//[Brendan] use custom language message for non-safari browser (if is ios but not the safari browser app)
+			message = this.options.message[ath.language].iosNonSafari;	//[Brendan] use iosNonSafari custom language message
+		} else if ( typeof this.options.message == 'object' && ath.language in this.options.message ) {		// use custom language message   //[Brendan] added:  } else  
 			message = this.options.message[ath.language][ath.OS];
 		} else if ( typeof this.options.message == 'object' && ath.OS in this.options.message ) {		// use custom os message
 			message = this.options.message[ath.OS];
